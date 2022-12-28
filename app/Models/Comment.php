@@ -17,6 +17,6 @@ class Comment extends Model
     // Relación una a muchos iversa con la tabla usarios
     public function user()
     {
-        return $this->belongsTo(User::class);
+        return $this->belongsTo(User::class);   
     }
 }
